@@ -1,0 +1,44 @@
+*{
+   box-sizing: border-box;
+
+}
+body {
+   margin: 0;
+   background-color: #f5f5f5;
+}
+.main {
+   min-height: 510px;
+}
+
+
+
+.App footer {
+   text-align: center;
+   height: 50px;
+   font-size: 20px;
+   line-height: 50px;
+}
+
+.pokemon-img{
+   height: 100%;
+}
+
+.card {
+   margin: 0 auto;
+   border: 1px solid #b6bab8;
+}
+.hr {
+   color: #b6bab8;
+   height: 1px;
+   margin: 0;
+   padding: 0;
+}
+
+.paginator-text {
+   text-align: center;
+   margin: -15px 0 10px 0;
+}
+.img-fluid {
+   width: 100%;
+   height: auto;
+}
