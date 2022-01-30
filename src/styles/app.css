@@ -42,3 +42,6 @@ body {
    width: 100%;
    height: auto;
 }
+.pointer {
+   cursor: pointer;
+}

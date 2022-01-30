@@ -1,13 +1,16 @@
-
-
 import { useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 
+
+
 export const Pokemon = () => {
+
    const { data } = useSelector(state => state.searchData)
    const { isError } = useSelector(state => state.searchData)
-   console.log("err", isError)
+
    const noMarkers = { listStyleType: "none", }
+
+   
    const element = data.name && !isError ?
       <div className="pokemon">
          <div className="card mb-3" style={{ maxWidth: 740 }}>
